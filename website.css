@@ -1,0 +1,37 @@
+body{
+    background-image:url("https://img.freepik.com/free-photo/colorful-summer-treat-melting-ice-cream-generative-ai_188544-12424.jpg?w=1380&t=st=1703129294~exp=1703129894~hmac=5069b0cbd814268627143d1808d562eb1539072b3bface85753498e3144e690d") ;
+    background-repeat: no-repeat;
+    background-size: 100%;
+
+}
+#s{
+    align-items: center;
+    display: flex;
+    /* justify-content: space-around; */
+}
+.i{
+    margin:1.5rem;
+    width: 205px;
+}
+.q{
+    height: 190px;
+}
+@media(max-width:1200px){
+    .i{
+        margin: 0%;
+
+    }
+}
+@media(max-width:700px){
+    .i{
+margin: 1.5rem;
+    }
+    body{
+        background-repeat: repeat;
+    }
+    #s{
+        display:inline-block;
+    }
+   
+    
+}      
